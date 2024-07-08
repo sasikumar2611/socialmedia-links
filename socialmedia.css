@@ -1,0 +1,81 @@
+@font-face {
+    font-family: int-b;
+    src: url(/font/Inter-Bold.ttf);
+    font-family: int-r;
+    src: url(/font/Inter-Regular.ttf);
+font-family: int-semi;
+src: url(/font/Inter-SemiBold.ttf);
+}
+body{
+    margin: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+background-color: rgb(20, 19, 19);
+position: relative;
+}
+.container{
+
+text-align: center;
+    width: 250px;
+    background-color: rgb(33, 30, 30);
+padding: 20px;
+border-radius: 10px;
+}
+.profilepic{
+    background-image: url(/font/myimage.jpeg);
+    width: 70px;
+    height: 70px;
+    background-size: cover;
+    border-radius: 50% ;
+margin: 10px auto 20px auto;  
+}
+.name p{
+    font-weight: 500;
+    font-style: normal;
+    color: white;
+    font-size: 1.3em;
+    margin-bottom: 10px;
+}
+.place p{
+    font-weight: 600;
+    color: rgb(205, 205, 78);
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+.role p{
+    letter-spacing: .1px;
+
+    font-style: normal;
+    color: rgb(210, 210, 210);
+    font-size: .7em;
+    margin: 20px auto;
+}
+p, .button  {
+    font-family: "Inter", sans-serif;
+    margin: 0;
+    color: white;
+}
+
+.button{
+    display: block;
+ padding: 10px; 
+ margin: 15px 5px;
+ border-radius: 5px;
+ font-size: 12px;
+ font-weight: 500;
+cursor: pointer;
+background-color: rgb(50, 49, 49);
+}
+.links a{
+    text-decoration: none;
+    color: white;
+    font-size: 10px;
+ font-weight: 600;
+letter-spacing: 1px;
+}
+.button:active{
+    background-color: yellowgreen;
+    color: black;
+}
